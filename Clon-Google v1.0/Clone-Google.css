@@ -1,0 +1,123 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+
+.header
+{
+    height: 50px;
+    font-size: 1.6rem;
+}
+nav
+{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    width: inherit;
+    height: inherit;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.menu__items 
+{
+
+    list-style: none; 
+    display: flex;
+}
+.menu__items li
+{
+    margin: auto 8px;
+}
+
+.menu__items a
+{
+    text-decoration: none;
+}
+
+
+.menu__items img
+{
+    width: 31px;
+    height: 31px; 
+}
+
+.main
+{
+    height: 696px;
+    display: grid;
+    align-content: center;
+}
+
+.logo-google
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 95px;
+    margin-bottom: 25px;
+}
+
+.form-busqueda
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-busqueda input
+{
+    
+    width: 500px;
+    height: 45px;
+    border-radius: 100px;
+    border: lightgray 1px solid;
+}
+
+.form-botones
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-botones button
+{
+    margin: 0 10px;
+    border-style: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+
+.footer
+{
+    height: 35px;
+    font-size: 1.7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    color: gray;
+}
+
+.footer-detalles__items a
+{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-detalles__items 
+{
+    list-style: none;
+    display: flex;
+    margin: 5px 20px;
+}
