@@ -1,0 +1,198 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+    
+}
+
+header
+{
+    width: 100%;
+    height: 60px;  
+}
+
+header nav
+{
+    display: flex;
+    justify-content: flex-end;
+    height: inherit;
+}
+
+header nav .nav-derecho
+{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-derecho a
+{
+    margin-right: 10px;
+    color: #000000;
+}
+
+nav .nav-derecho .menu-icono
+{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-derecho img
+{
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+main
+{
+    text-align: center;
+    margin-top: 150px
+}
+
+main .logo-principal
+{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .logo-principal img
+{
+    width: 300px;
+}
+
+main .barra-busqueda
+{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .input-buscador
+{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #e4e5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .input-buscador input
+{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+} 
+
+main .input-buscador:hover
+{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main  .input-buscador__lupa
+{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7_CxiiQsfn8WHQPALwEPr2Y46g1wpSqNhCA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main  .input-buscador__microfono
+{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDEX5oBFi7THg02upx9CBx2MBD7qyMLmvcaA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .botones-busqueda
+{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .botones-busqueda div
+{
+    display: inline-block;
+}
+
+main .botones-busqueda button
+{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius:5px ;
+    padding: 0 15px;
+    margin: 0 7.5px;
+}
+
+main .botones-busqueda button:hover
+{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
+}
+
+footer
+{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul
+{
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer__izquierdo
+{
+    justify-self: left;
+}
+
+footer .footer__derecho
+{
+    justify-self: right;
+}
+
+footer ul li a
+{
+    margin: 10px;
+    color: #5f6368;
+}
